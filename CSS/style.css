@@ -19,9 +19,12 @@ body {
     background-color: #FFFFFF;
 }
 
+#wrapper{
+    margin: 0px 32px;
+}
+
 header {
     height: 96px;
-    padding: 32px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -30,7 +33,6 @@ header {
 
 #logo {
     display: flex;
-    margin-left: 32px;
     align-items: center;
     background-image: url(../images/logo.png);
     background-size: contain;
@@ -103,4 +105,29 @@ footer h3{
     display:flex;
     gap: 24.38px;
     margin: 24px 0px 16.12px;
+}
+
+#bg-container{
+    background-image: url(../images/bg.png);
+    display: flex;
+    flex-flow: column;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 99vw;
+    height: 900px;
+    margin-left: -32px;
+}
+
+#bg-container h1{
+    color:#612999;
+    font-size: 96px;
+    font-weight: 800px;
+    margin: 32px 0px 0px 32px;
+}
+
+#bg-container p{
+    color: #000;
+    font-size: 24px;
+    font-weight: 600px;
+    margin-left: 32px;
 }
