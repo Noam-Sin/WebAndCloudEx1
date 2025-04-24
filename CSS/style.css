@@ -19,7 +19,7 @@ body {
     background-color: #FFFFFF;
 }
 
-#wrapper{
+#wrapper {
     margin: 0px 32px;
 }
 
@@ -62,7 +62,8 @@ nav a {
     line-height: normal;
 }
 
-nav a.selected, nav a:hover {
+nav a.selected,
+nav a:hover {
     font-weight: 700;
 }
 
@@ -78,7 +79,7 @@ footer {
 
 }
 
-footer > section{
+footer>section {
     display: flex;
     flex-flow: column;
     color: #333;
@@ -86,48 +87,70 @@ footer > section{
     margin: 32px 0px 0px 32px;
 }
 
-footer h3{
+footer h3 {
     font-weight: 700;
     font-size: 18px;
     margin-bottom: 16px;
 }
 
-.footer-cont{
+.footer-cont {
     display: flex;
     flex-flow: column;
     font-weight: 400;
 }
-.footer-cont > a{
+
+.footer-cont>a {
     color: #333;
 }
 
-#social-icons{
-    display:flex;
+#social-icons {
+    display: flex;
     gap: 24.38px;
     margin: 24px 0px 16.12px;
 }
 
-#bg-container{
-    background-image: url(../images/bg.png);
+#bg-container {
+    background-image: url(../images/bg.svg);
     display: flex;
     flex-flow: column;
     background-size: cover;
     background-repeat: no-repeat;
     width: 99vw;
-    height: 900px;
+    height: 668px;
     margin-left: -32px;
 }
 
-#bg-container h1{
-    color:#612999;
+#bg-container h1 {
+    color: #612999;
     font-size: 96px;
-    font-weight: 800px;
+    font-weight: 800;
     margin: 32px 0px 0px 32px;
 }
 
-#bg-container p{
+#bg-container p {
     color: #000;
     font-size: 24px;
-    font-weight: 600px;
+    font-weight: 600;
     margin-left: 32px;
+}
+
+main h2 {
+    font-family: Rubik;
+    color: #612999;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 40px;
+    margin: 32px 0px 32px;
+}
+
+#main-about p {
+    display: flex;
+    flex-flow: column;
+    text-align: justify;
+    font-family: Rubik;
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 140.625%;
+    margin-bottom: 24px;
 }
