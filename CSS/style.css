@@ -253,9 +253,9 @@ main h2 {
 }
 
 /* amiibo cards page */
+
 #products-images {
     display: flex;
-    /* justify-content: space-around; */
     margin-bottom: 32px;
     gap: 32px;
 }
@@ -304,4 +304,29 @@ li>p {
     font-size: 24px;
     font-weight: 400;
     line-height: 14px;
+}
+
+#your-choice>section {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #EFECFF;
+    width: 1136px;
+    height: 503px;
+    gap: 24px;
+    margin-bottom: 32px;
+}
+
+#your-choice iframe {
+    width: 90%;
+    height: 80%;
+    border: none;
+    border-radius: 16px;
+}
+
+#your-choice h3 {
+    color: #612999;
+    font-weight: 400;
+    font-size: 35px;
 }
